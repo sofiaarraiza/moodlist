@@ -1,5 +1,5 @@
-exports.create_playlist = async function(req, res, spotifyApi) {
-    spotifyApi
+exports.create_playlist = async function(req, res, ) {
+    /*spotifyApi
         .getAlbum('6AORtDjduMM3bupSWzbTSG')
             .then(response => {
                 if (response.statusCode !== 200) {
@@ -7,5 +7,5 @@ exports.create_playlist = async function(req, res, spotifyApi) {
                 }
                 const tracks = response.body.tracks.items
                 res.json(albumTracks.body.tracks.items)
-            }) 
+            }) */
 }
