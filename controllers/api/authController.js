@@ -7,3 +7,7 @@ exports.loginUser = function(req, res) {
 exports.callbackFunction = function(req, res){
     return AuthService.get_spotify_token(req, res)
 }
+
+exports.getUserInfo = function(req, res){
+    return AuthService.get_user_info(req, res)
+}
